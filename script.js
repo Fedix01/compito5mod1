@@ -115,9 +115,21 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+// function check3and7(n) {
+//     if (n % 3 === 0 || n % 7 === 0) {
+//         return true
+//     } else
+//         return false
+// }
+// let newCheck3and7 = check3and7(14);
+// console.log(newCheck3and7)
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro e la ritorna senza il primo e l'ultimo carattere.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// function cutString(myStr) {
+//     return (myStr.slice(1, -1))
+// }
+// let finalCutString = cutString("Paperino");
+// console.log(finalCutString)
