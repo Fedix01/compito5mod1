@@ -44,9 +44,14 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 // function upperFirst(mystring) {
-//     return mystring.toUpperCase()
+//     let stringa = mystring.split(" ");
+//     for (let i = 0; i < stringa.length; i++) {
+//         stringa[i] = stringa[i][0].toUpperCase() + stringa[i].substr(1);
+//     }
+//     return stringa.join(" ");
 // }
-// console.log(upperFirst("hello"))
+// let newstring = upperFirst("ciao mi chiamo carlo");
+// console.log(newstring)
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "giveMeRandom", che accetta come parametro un numero chiamato n e ritorna un array contenente n numeri random contenuti tra 0 e 10.
 */
